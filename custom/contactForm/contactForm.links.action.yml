@@ -1,0 +1,10 @@
+# All action links for this module
+
+contactForm.contactform_form:
+  # Which route will be called by the link
+  route_name: contactForm.contactform_form
+  title: 'Add Contact'
+
+  # Where will the link appear, defined by route name.
+  appears_on:
+    - contactForm.contact_list_form

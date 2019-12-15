@@ -1,0 +1,7 @@
+# Define the menu links for this module
+
+contactForm.contact_list_form:
+  title: 'Contact Listing'
+  route_name: contactForm.contact_list_form
+  description: 'List Contact'
+  weight: 10

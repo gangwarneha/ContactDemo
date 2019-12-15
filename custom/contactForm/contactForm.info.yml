@@ -1,0 +1,6 @@
+name: Custom Contact form
+type: module
+description: 'Custom contact form with Add/Edit/Delete operations'
+core: 8.x
+version: VERSION
+package: Custom

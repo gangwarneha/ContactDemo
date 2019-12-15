@@ -1,0 +1,28 @@
+# Route name can be used in several place (links, redirects, local actions etc.)
+contactForm.contactform_form:
+  path: '/contactForm'
+  defaults:
+    _form: '\Drupal\contactForm\Form\MycontactForm'
+    _title: 'Contact Form'
+  requirements:
+  # Checks for permission directly.
+    _access: 'TRUE'
+  
+
+contactForm.contact_list_form:
+  path: '/contactform/list'
+  defaults:
+    _controller: '\Drupal\contactForm\Controller\ContactlistController::contactlist'
+    _title: 'Contacts List'
+  requirements:
+    _permission: 'access content'
+
+
+contactForm.delete_form:
+  path: '/contactform/form/delete/{nid}'
+  defaults:
+    _form: '\Drupal\contactForm\Form\DeleteForm'
+    _title: 'Delete Form'
+  requirements:
+    _access: 'TRUE'
+  
