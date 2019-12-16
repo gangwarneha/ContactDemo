@@ -6,7 +6,7 @@ contactForm.contactform_form:
     _title: 'Contact Form'
   requirements:
   # Checks for permission directly.
-    _access: 'TRUE'
+    _role: 'administrator'
   
 
 contactForm.contact_list_form:
@@ -15,7 +15,7 @@ contactForm.contact_list_form:
     _controller: '\Drupal\contactForm\Controller\ContactlistController::contactlist'
     _title: 'Contacts List'
   requirements:
-    _permission: 'access content'
+    _role: 'administrator'
 
 
 contactForm.delete_form:
@@ -24,5 +24,5 @@ contactForm.delete_form:
     _form: '\Drupal\contactForm\Form\DeleteForm'
     _title: 'Delete Form'
   requirements:
-    _access: 'TRUE'
+   _role: 'administrator'
   
