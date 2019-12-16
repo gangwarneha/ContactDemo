@@ -13,7 +13,7 @@ This is an application for maintaining Contact information using Form API in dru
 ## Visit demo website and steps
 
 https://dev-contactd.pantheonsite.io/
-- Login with username- admin, password- admin
+- Login with username- demo, password- demo123
 
 steps to follow on dev website:
 
